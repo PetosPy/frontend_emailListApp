@@ -38,7 +38,7 @@ app.post("/", function (req, res) {
 
   const options = {
     method: "POST",
-    auth: "Petos290:32933ac5ed102b9f95766feb4788218a-us1",
+    auth: "Petos290:32933ac5ed102b9f95766feb4788218a-us13",
   };
 
   const request = https.request(url, options, function (response) {
@@ -66,8 +66,3 @@ app.listen(process.env.PORT || 3000, function () {
 app.post("/failure", function (req, res) {
   res.redirect("/");
 });
-
-// api_key = "32933ac5ed102b9f95766feb4788218a-us13"
-// list = "9c427f4c52."
-// dataCenter = "us13";
-// mailChimpUrl = "https://<dc>.api.mailchimp.com/3.0/"
